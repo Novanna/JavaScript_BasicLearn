@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <link 
+            rel="stylesheet" 
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+            crossorigin="anonymous"
+          />
+        <title>Novanna</title>
+    </head>
+    <body>
+        <div class="container-fluid" style="width: 50%;">
+            <div class="card border-dark mb-3">
+                <div class="card-header">
+                    <div class="card-title">
+                        <p style="text-align: center;">JavaScript Code Test</p>
+                    </div>
+                </div>
+                <div class="card-body" style="margin-bottom: -35px;">
+                        <div class="form-group">
+                            <label for="labelName" style="font-weight: 500">Input</label>
+                            <input
+                              type="text"
+                              class="form-control"
+                              id="userInput1"
+                              placeholder="Type sentence here"
+                            />
+                        </div>
+                        <div button type="button" class="btn btn-primary" onClick="operator(userInput1)">Generate</div>
+                </div>
+                    <div class="card-body mb-3" style="margin: 20px;">
+                        <p class="font-weight-bold" style="text-align: center;"> Output </p>
+                            <p id="output1"></p>
+                            <p id="output2"></p>
+                            <p id="output3"></p>
+                            <p id="output4"></p>
+                            <p id="output5"></p>
+                            <p id="output6"></p>
+                    </div>
+                <div class="card-footer" style="text-align: center;">
+                    Wish you luck!
+                </div>
+            </div>
+        </div>
+        <script src="process.js"></script>
+    </body>
+</html>
